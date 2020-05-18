@@ -10,3 +10,4 @@ import scrapy
 
 class NavigationItem(scrapy.Item):
     title = scrapy.Field()
+    children = scrapy.Field()
